@@ -1,5 +1,3 @@
-#!/usr/bin/env ruby
-
 video_dir = File.expand_path File.join File.dirname(__FILE__), ".."
 
 while true
