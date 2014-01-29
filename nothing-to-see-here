@@ -2,5 +2,4 @@
 
 DIR="$( dirname $0 )"
 /usr/bin/env ruby $DIR/watcher.rb
-#DISPLAY=0:0 xterm -e "$DIR/watcher.rb" -hold
 
