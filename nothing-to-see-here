@@ -1,4 +1,4 @@
 #!/bin/sh
 
-X&
-DISPLAY=0:0 xterm -fullscreen -fg black -bg black -e ./watcher.rb
+DIR="$( dirname $0 )"
+DISPLAY=0:0 xterm -e "$DIR/watcher.rb" -hold
